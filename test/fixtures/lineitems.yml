@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  hours: 9.99
+  timesheet_id: 1
+  category_id: 1
+
+two:
+  hours: 9.99
+  timesheet_id: 1
+  category_id: 1

@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Hours:</b>
+  <%= @lineitem.hours %>
+</p>
+
+<p>
+  <b>Timesheet:</b>
+  <%= @lineitem.timesheet_id %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%= @lineitem.category_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_lineitem_path(@lineitem) %> |
+<%= link_to 'Back', lineitems_path %>
